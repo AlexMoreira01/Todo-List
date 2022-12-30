@@ -1,0 +1,10 @@
+.container {
+    max-width: 736px;
+    margin: auto auto;
+}
+
+@media (max-width: 768px) {
+    html {
+        font-size: 87.5%;
+    }
+}
