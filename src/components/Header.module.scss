@@ -1,0 +1,15 @@
+header {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+
+    height: 200px;
+
+    background-color: var(--gray-700);
+}
+
+.header img {
+    height: 3rem;
+    margin-bottom: 15px
+}
