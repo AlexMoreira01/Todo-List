@@ -1,11 +1,11 @@
-.createTodo{
+.createTodo {
     display: flex;
     justify-content: space-between;
     margin-top: -26px;
 
 }
 
-.createTodo input{
+.createTodo input {
     width: 638px;
 
     background-color: var(--gray-500);
@@ -18,7 +18,7 @@
     font-size: 16px;
 }
 
-.createTodo button{
+.createTodo button {
     display: flex;
     width: 90px;
     align-items: center;
@@ -40,7 +40,7 @@
 
 .createTodo button:hover {
     background-color: var(--blue-300);
-    
+
 }
 
 .listTodo {
@@ -57,7 +57,7 @@
     font-size: 14px;
 }
 
-.listTodo .infoTodo p span{
+.listTodo .infoTodo p span {
     background-color: var(--gray-400);
     color: var(--gray-200);
 
@@ -69,10 +69,65 @@
     font-size: 12px;
 }
 
-.listTodo .infoTodo .textOne{
-    color: var(--blue-500);
+.listTodo .infoTodo .textOne {
+    color: var(--blue-300);
 }
 
-.listTodo .infoTodo .textTwo{
-    color: var(--purple-500);
+.listTodo .infoTodo .textTwo {
+    color: var(--purple-300);
+}
+
+
+.todoList ul {
+    margin-top: 25px;
+}
+
+
+.todoListEmpty {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+
+    margin-top: 24px;
+
+    border-radius: 8px;
+    border-top: 1px solid var(--gray-400);
+
+}
+
+.todoListEmptyContent {
+    padding: 64px 24px;
+}
+
+.todoListEmptyContent .divImg {
+    display: flex;
+    justify-content: center;
+
+    margin-bottom: 16px;
+
+}
+
+.todoListEmptyContent p {
+    // display: block;
+    display: grid;
+    line-height: 140%;
+
+    font-weight: bold;
+    font-size: 16px;
+
+    text-align: center;
+
+    color: var(--gray-300);
+}
+
+.todoListEmptyContent p span {
+    font-weight: 400;
+
+
+    font-size: 16px;
+
+    text-align: center;
+
+    color: var(--gray-300);
 }
